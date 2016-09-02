@@ -14,7 +14,7 @@
      * @param {Object} absoluteCss   style before fixed
      * @param {Object} fixedCss   style after fixed
      */
-    var scrollFixBar = function($selector,absoluteCss,fixedCss){
+    var scrollFix = function($selector,absoluteCss,fixedCss){
         var isBarFixed = false;
         var $bar = $selector;
         if(!$bar.length){return;}
